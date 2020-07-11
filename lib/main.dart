@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
 
 import 'detail.dart';
 
@@ -60,12 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget listCell(BuildContext context, int index) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
-            context,
-            PageTransition(
-                duration: Duration(milliseconds: 300),
-                type: PageTransitionType.fade,
-                child: Detail(myHeros[index])));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => Detail(myHeros[index])));
       },
       child: Card(
         margin: EdgeInsets.all(8.0),

@@ -28,17 +28,17 @@ class Detail extends StatelessWidget {
                       children: <Widget>[
                         Container(
                           child: Padding(
-                            padding: const EdgeInsets.only(top: 350.0),
+                            padding: const EdgeInsets.only(top: 330.0),
                             child: Card(
                                 margin: EdgeInsets.zero,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.vertical(
-                                      top: Radius.elliptical(85, 75)),
+                                      top: Radius.elliptical(90, 65)),
                                 ),
                                 child: Center(
                                     child: Column(
                                   children: <Widget>[
-                                    SizedBox(height: 160),
+                                    SizedBox(height: 150),
                                     Padding(
                                       padding: const EdgeInsets.all(35.0),
                                       child: Text(
@@ -50,7 +50,7 @@ class Detail extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(
-                                      height: 100,
+                                      height: 30,
                                     ),
                                   ],
                                 ))),
