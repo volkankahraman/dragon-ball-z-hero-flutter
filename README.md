@@ -6,6 +6,7 @@ Basic information about Dragon Ball Z characters build with flutter demonstratin
 
 <img src="screnshots/ss1.jpg" alt="dragon ball z" />
 <img src="screnshots/ss2.jpg" alt="dragon ball z" />
+<img src="screnshots/screen.gif" alt="dragon ball z" />
 
 ## Getting Started
 
