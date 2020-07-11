@@ -1,6 +1,11 @@
-# hero
+# Dragon Ball Z-Hero Widget Flutter
 
-A new Flutter project.
+Basic information about Dragon Ball Z characters build with flutter demonstrating of hero widget
+
+## Screenshots
+
+<img src="screnshots/ss1.jpg" alt="dragon ball z" />
+<img src="screnshots/ss2.jpg" alt="dragon ball z" />
 
 ## Getting Started
 
