@@ -89,7 +89,13 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(
                 width: 16.0,
               ),
-              Text(myHeros[index].name),
+              Text(
+                myHeros[index].name,
+                style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
@@ -109,14 +115,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.all(16.0),
                 child: Image.asset('assets/dragonballz.png'),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 500,
-                  child: ListView.builder(
-                    itemCount: myHeros.length,
-                    shrinkWrap: true,
-                    itemBuilder: (context, index) => listCell(context, index),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    child: ListView.builder(
+                      itemCount: myHeros.length,
+                      itemBuilder: (context, index) => listCell(context, index),
+                    ),
                   ),
                 ),
               ),
